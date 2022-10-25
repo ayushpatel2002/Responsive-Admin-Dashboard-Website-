@@ -1,0 +1,65 @@
+/* rule for top level div element */
+#form_container {
+    width: 1024px;
+    margin: auto;
+}
+
+/* rule for first level nested div element */
+#form_content {
+    float: right;
+    width: 650px;
+    padding-right: 120px;
+}
+
+h3 {
+    color: red;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+
+#registration_form .label {
+    width: 140px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+/* for errors */
+#registration_form .error {
+    color: red;
+    font-size: 12px;
+    margin-left: 440px;
+    display: inline-block;
+}
+
+#registration_submit {
+    margin-left: 140px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 395px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.radio_input{
+    width: 30px;
+}
+/* the following styles is for age slider in contact us form */
+#ageslider{
+    margin-left: 297px;
+    margin-top: 15px;
+}
+#discount{
+    display: none;
+}
+.ageread{
+    border-radius: 50px;
+    width: 30px;
+    padding: 10px;
+}
+
+.inst{
+    color: gray;
+    font-size: small;
+}
