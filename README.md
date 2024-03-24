@@ -13,28 +13,19 @@ The LIFE Web Application is a comprehensive solution designed to enhance the onl
 - **Visual Statistics**: Utilizes third-party jQuery and Bootstrap plugins to graphically represent user engagement data.
 
 ## Running the Application
-To run the LIFE Web Application, a PHP-enabled server environment is required. For local development, use software like XAMPP or MAMP that provides a PHP server and MySQL database. For production, deploy on a PHP and MySQL supported hosting service.
+To run the LIFE Web Application, a PHP-enabled server environment is required. Follow these steps to set up the application:
 
 1. Clone the repository to your PHP server's web directory.
 2. Import the provided SQL files into your MySQL database to set up the initial data.
 3. Configure the database connection settings in your PHP scripts to match your MySQL setup.
-4. Access the application through the web server's URL, typically `http://localhost/[path-to-application]/a2/index.php` for local setups.
-
-Ensure your PHP and MySQL versions are compatible with the project requirements. The application has been tested on PHP version [specify version] and MySQL version [specify version].
+4. **Download required media**: Access the [Google Drive link](https://drive.google.com/drive/folders/1poUMqdnB-cb47tIkBgmzeko1O9Eee5eb?usp=sharing) and download the necessary media files. Add these files to the `a2/assets/` directory in your project to ensure all features function correctly.
+5. Access the application through the web server's URL, typically `http://localhost/[path-to-application]/a2/index.php` for local setups.
 
 ## Dependencies
-- PHP [specify version]
-- MySQL [specify version]
-- jQuery [specify version]
-- Bootstrap [specify version] (CDN used)
+- PHP
+- MySQL
+- jQuery
+- Bootstrap
 - AJAX for asynchronous data operations
 - RESTful service for weather data
 
-All other assets and third-party plugins are included within the project structure as per the directory guidelines specified in the project details.
-
-## Directory Structure
-- `a2/`: Main application directory.
-  - `includes/`: PHP fragments for header, footer, and navigation bar.
-  - `plugins/`: Third-party Bootstrap and jQuery plugins.
-  - `assets/`: Images, audio, and video files.
-- `admin/`: Administration dashboard.
