@@ -18,8 +18,8 @@ To run the LIFE Web Application, a PHP-enabled server environment is required. F
 1. Clone the repository to your PHP server's web directory.
 2. Import the provided SQL files into your MySQL database to set up the initial data.
 3. Configure the database connection settings in your PHP scripts to match your MySQL setup.
-4. **Download required media**: Access the [Google Drive link](https://drive.google.com/drive/folders/1poUMqdnB-cb47tIkBgmzeko1O9Eee5eb?usp=sharing) and download the necessary media files. Add these files to the `a2/assets/` directory in your project to ensure all features function correctly.
-5. Access the application through the web server's URL, typically `http://localhost/[path-to-application]/a2/index.php` for local setups.
+4. **Download required media**: Access the [Google Drive link](https://drive.google.com/drive/folders/1poUMqdnB-cb47tIkBgmzeko1O9Eee5eb?usp=sharing) and download the necessary media files. Add these files to the `Responsive-Admin-Dashboard-Website/Media/` directory in your project to ensure all features function correctly.
+5. Access the application through the web server's URL, typically `http://localhost/[path-to-application]/Responsive-Admin-Dashboard-Website/index.php` for local setups.
 
 ## Dependencies
 - PHP
